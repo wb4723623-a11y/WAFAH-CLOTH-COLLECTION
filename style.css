@@ -177,10 +177,12 @@ img {
 }
 
 .btn {
+    display: inline-block;
     padding: 15px 28px;
     font-size: 13px;
     font-weight: 600;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .primary-btn {
@@ -679,7 +681,7 @@ footer > p {
 @media (max-width: 550px) {
 
     .navbar {
-        position: absolute;
+        position: fixed;
         flex-direction: column;
         gap: 15px;
     }
